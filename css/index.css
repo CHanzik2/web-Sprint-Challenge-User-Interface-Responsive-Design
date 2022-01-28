@@ -123,6 +123,13 @@ header nav {
     display: flex;
     justify-content: space-evenly;
 }
+
+#top-image {
+    background-image: url('../img/jumbo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10vh;
+}
 /*Top Section Styles*/
 
 .top-content {
@@ -134,13 +141,6 @@ header nav {
     text-align: justify;
 }
 
-.top-content .jumbo {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
-    margin-bottom: 5%;
-}
 .top-content .text-container {
     width: 35%;
     padding: 0 1%;
@@ -255,8 +255,40 @@ footer nav a{
 }
 
 /*About Page Styles*/
-
-
+#top-image2{
+    background-image: url('../img/jumbo-about.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10vh;
+}
+#about {
+    margin-bottom: 4%;
+    border-bottom: 2px solid #ff4b00;
+    max-width: 100%;
+}
+.container2 {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.container2 p{
+    text-align: center;
+}
+.container2 div {
+    width:50%;
+}
+.container2 .strategy {
+    border-bottom: 2px solid #ff4b00;
+}
+.container2 .work {
+    border-bottom: 2px solid #ff4b00;
+}
+.container2 .office {
+    border-bottom: 2px solid #ff4b00;
+}
+.container2 .meeting {
+    border-bottom: 2px solid #ff4b00;
+}
 /*Responsive Styles*/
 @media(max-width: 500px){
     header {
