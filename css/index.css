@@ -95,6 +95,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 4%;
+    margin-left: 5%;
 }
 
 a {
@@ -257,12 +258,15 @@ footer nav a{
 
 /*About Page Styles*/
 #top-image2{
+    margin-left:5%;
+    margin-right: 5%;;
     background-image: url('../img/jumbo-about.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 10vh;
 }
 #about {
+    margin-left: 5%;
     margin-bottom: 4%;
     border-bottom: 2px solid #ff4b00;
     max-width: 100%;
@@ -277,24 +281,32 @@ footer nav a{
     text-align: center;
 }
 .container2 div {
-    width:45%;
+    width:40%;
 }
 .container2 .strategy {
     border-bottom: 2px solid #ff4b00;
+    margin-left: 5%;
     margin-bottom: 5%;
 }
 .container2 .work {
     border-bottom: 2px solid #ff4b00;
+    margin-right: 5%;
     margin-bottom: 5%;
 }
 .container2 .office {
     border-bottom: 2px solid #ff4b00;
+    margin-left: 5%;
 }
 .container2 .meeting {
     border-bottom: 2px solid #ff4b00;
+    margin-right: 5%;
 }
-
+#together {
+    margin-left: 5%;
+}
 .container2 button{
+    margin-top: 5%;
+    margin-bottom: 5%;
     border-radius: 10px;
     width: 25%;
     background-color: white;
@@ -348,8 +360,9 @@ footer nav a{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        text-align: center;
+        text-align: left;
         justify-content: center;
+        margin-bottom: 5%;
     }
     #about {
         display: flex;
