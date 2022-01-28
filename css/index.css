@@ -315,7 +315,7 @@ footer nav a{
         display: flex;
         justify-content: space-evenly;
     }
-    #top-image{
+    #top-image, #top-image2{
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
@@ -351,5 +351,31 @@ footer nav a{
         text-align: center;
         justify-content: center;
     }
+    #about {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #about p{
+        text-align: left;
+        margin-left: 4%;
+    }
+    .container2 div{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .container button {
+        margin-top: 20px;
+    }
+    #together {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #together p{
+        text-align: left;
+        margin-left: 4%;
     }
 }
